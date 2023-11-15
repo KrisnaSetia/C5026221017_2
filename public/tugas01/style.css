@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+body{
+    background-color: rgb(125, 9, 17) ;
+}
+.krisna-font-type{
+    font-family: 'Inter',sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 598;
+    line-height: 1.5;
+    max-width: 1.5;
+}
+.krisna-foto{
+    border-radius: 80%;
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2px;
+    margin-top: 68px;
+}
+.krisna-judul{
+    font-size: 19px;
+    text-align: center;
+    margin-top: 12px;
+    letter-spacing: 0.4px;
+}
+.krisna-r-doang{
+    font-size: 10px;
+}
+.krisna-centang-biru{
+    height: 15px;
+    width: 15px;
+    margin-left: 4px;
+}
+.krisna-titik{
+    font-size: 13px;
+    text-align: center;
+    margin-top: 38px;
+    white-space: nowrap;
+    letter-spacing: 0px;
+}
+.krisna-sub-judul{
+    font-size: 15px;
+    text-align: center;
+    padding-top: 15px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    position: static;
+}
+.krisna-button{
+    margin: 0px 290px 16px 290px;
+    padding: 20px 0px 20px 0px;
+    border: 2px solid rgb(97, 8, 8);
+    background-color: rgb(97, 8, 8);
+    border-radius: 8px;
+    font-size: 15px;
+    display: block;
+    color: white;
+    font-family: 'Inter',sans-serif;
+    text-align: center;
+    font-weight:800;
+    font-style: inherit;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    text-decoration: none;
+}
+.krisna-sublink{
+    font-family: 'Inter',sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    line-height: 1.5;
+    max-width: 1.5;
+}
+.krisna-button:hover{
+    color:rgb(97, 8, 8) ;
+    transition-duration: 0.4s;
+}
+a:hover{
+    background-color:  rgb(125, 9, 17);
+}
+.krisna-modular {
+    position: absolute;
+    left: 304px;
+    width: 50px;
+    bottom: -18px;
+    border-radius: 10%;
+}
+.krisna-icon{
+    display: block;
+    margin-left: 560px;
+    margin-top: 28px;
+}
+.krisna-ig-icon{
+    width: 30px;
+    height: 30px;
+}
+.krisna-ig-icon:hover{
+    transform: scale(1.10);
+}
+.krisna-tiktok-icon{
+    width: 33px;
+    height: 33px;
+    margin-left: 13px;
+}
+.krisna-tiktok-icon:hover{
+    transform: scale(1.10);
+}
+.krisna-mail-icon{
+    width: 34px;
+    height: 34px;
+    margin-left: 10px;
+}
+.krisna-mail-icon:hover{
+    transform: scale(1.10);
+}
+.krisna-linktree-icon{
+    display: block;
+    width:100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+

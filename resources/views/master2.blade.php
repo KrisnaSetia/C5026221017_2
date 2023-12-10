@@ -16,22 +16,26 @@
 
         <!-- Links -->
         <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link 1</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link 2</a>
-          </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/nilaikuliah">Nilai Kuliah</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/tugasprauas">Tugas Pra UAS Laptop</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/keranjangbelanja">Keranjang Belanja</a>
+              </li>
 
-          <!-- Dropdown -->
+            <!-- Dropdown -->
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
               DATABASE
             </a>
             <div class="dropdown-menu">
-              <a class="dropdown-item" href="/pegawai">Pegawai</a>
-              <a class="dropdown-item" href="#"></a>
-              <a class="dropdown-item" href="#">Link 3</a>
+              <a class="dropdown-item" href="/pegawai">Database Pegawai</a>
+              <a class="dropdown-item" href="/nilaikuliah">Nilai Kuliah</a>
+              <a class="dropdown-item" href="/tugasprauas">Tugas Pra UAS Laptop</a>
+              <a class="dropdown-item" href="/keranjangbelanja">Keranjang Belanja</a>
             </div>
           </li>
         </ul>

@@ -22,19 +22,19 @@
         </div>
         <div class="form-group row">
             <label for="jabatan" class="col-xs-3 col-form-label mr-2">Jabatan</label>
-            <div class="col-xs-9 ml-1">
+            <div class="col-sm-6">
             <input type="text" required="required" id="jabatan"  name="jabatan" class="form-control" value="{{ $p->pegawai_jabatan }}">
             </div>
         </div>
         <div class="form-group row">
             <label for="umur" class="col-xs-4 col-form-label mr-3">Umur</label>
-            <div class="col-xs-9 ml-2">
+            <div class="col-sm-6">
             <input type="number" required="required" id="umur"  name="umur" class="form-control" value="{{ $p->pegawai_umur }}">
             </div>
         </div>
         <div class="form-group row">
             <label for="alamat" class="col-xs-3 col-form-label mr-2">Alamat</label>
-            <div class="col-xs-9 ml-2">
+            <div class="col-sm-6">
             <textarea required="required" name="alamat" class="form-control">{{ $p->pegawai_alamat }}</textarea>
             </div>
         </div>

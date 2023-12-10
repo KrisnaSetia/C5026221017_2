@@ -71,6 +71,8 @@ Route::get('/blog/kontak', function () {
     return view('kontak');
 });
 //route CRUD
+
+// Data Pegawai
 Route::get('/pegawai','App\Http\Controllers\PegawaiController@index');
 Route::get('/pegawai/tambah','App\Http\Controllers\PegawaiController@tambah');
 Route::post('/pegawai/store','App\Http\Controllers\PegawaiController@store');
@@ -80,10 +82,12 @@ Route::get('/pegawai/hapus/{id}','App\Http\Controllers\PegawaiController@hapus')
 Route::get('/pegawai/cari','App\Http\Controllers\PegawaiController@cari');
 Route::get('/pegawai/view/{id}','App\Http\Controllers\PegawaiController@view');
 
+// Nilai Kuliah
 Route::get('/nilaikuliah','App\Http\Controllers\NilaiController@index');
 Route::get('/nilaikuliah/tambahnilai','App\Http\Controllers\NilaiController@tambah');
 Route::post('/nilaikuliah/store','App\Http\Controllers\NilaiController@store');
 
+//Tugas Pra UAS
 Route::get('/tugasprauas','App\Http\Controllers\LaptopController@index');
 Route::get('/tugasprauas/tambahlaptop','App\Http\Controllers\LaptopController@tambah');
 Route::post('/tugasprauas/store','App\Http\Controllers\LaptopController@store');
@@ -93,8 +97,9 @@ Route::get('/tugasprauas/hapus/{id}','App\Http\Controllers\LaptopController@hapu
 Route::get('/tugasprauas/cari','App\Http\Controllers\LaptopController@cari');
 Route::get('/tugasprauas/view/{id}','App\Http\Controllers\LaptopController@view');
 
+// Keranjang Belanja
 Route::get('/keranjangbelanja','App\Http\Controllers\BelanjaController@index');
 Route::get('/keranjangbelanja/tambahbelanja','App\Http\Controllers\BelanjaController@tambah');
 Route::post('/keranjangbelanja/store','App\Http\Controllers\BelanjaController@store');
-Route::get('/pegawai/hapus/{id}','App\Http\Controllers\BelanjaController@hapus');
+Route::get('/keranjangbelanja/hapus/{id}','App\Http\Controllers\BelanjaController@hapus');
 

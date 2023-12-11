@@ -2,9 +2,6 @@
 @section('judulhalaman','EAS 5026221017')
 @section('konten')
 
-	<h3>Anda telah memilih Kategori dengan kode :{{$kategori->id}}</h3>
-
-    <br/>
-
-
+<h3>Anda telah memilih kategori dengan Kode: {{ $kategori->id }}</h3>
+<a href="/kategori"> Kembali</a>
 @endsection

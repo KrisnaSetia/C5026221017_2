@@ -13,9 +13,11 @@ class KategoriController extends Controller
         $kategori=DB::table('kategori')->get();
 		return view('indexkategori',['kategori' => $kategori]);
 	}
-    public function view($id){
-        $kategori=DB::table('kategori')->where('id',$id)->first();
-        return view('viewkategori',['kategori' => $kategori]);
-
+    public function hasil(Request $request){
+        $selectedID = $request->input('kategori');
+        // Fetch the corresponding record from the database
+        $kategori = DB::table('kategori')->where('ID', $selectedID)->first();   
+        // Return the selected record to the view
+        return view('viewkategori', ['kategori' => $kategori]);
     }
 }

@@ -103,3 +103,6 @@ Route::get('/keranjangbelanja/tambahbelanja','App\Http\Controllers\BelanjaContro
 Route::post('/keranjangbelanja/store','App\Http\Controllers\BelanjaController@store');
 Route::get('/keranjangbelanja/hapus/{id}','App\Http\Controllers\BelanjaController@hapus');
 
+Route::get('/combo','App\Http\Controllers\KategoriController@index');
+Route::post('/combo/store','App\Http\Controllers\KategoriController@store');
+Route::get('/combo/view/{id}','App\Http\Controllers\KategoriController@view');

@@ -3,5 +3,5 @@
 @section('konten')
 
 <h3>Anda telah memilih kategori dengan Kode: {{ $kategori->id }}</h3>
-<a href="/kategori"> Kembali</a>
+<a href="/combo"> Kembali</a>
 @endsection

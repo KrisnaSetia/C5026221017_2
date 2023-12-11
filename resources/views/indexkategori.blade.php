@@ -5,7 +5,7 @@
 
 <div class="col-8">
         <h3>Evaluasi Akhir Semester</h3>
-        <form action="/kategori/hasil" method="post" class="form-horizontal">
+        <form action="/combo/hasil" method="post" class="form-horizontal">
             {{ csrf_field() }}
 
         <label for="kategori"></label>

@@ -2,9 +2,9 @@
 @section('judulhalaman','EAS 5026221017')
 @section('konten')
 
-	<h3>Evaluasi Akhir Semester</h3>
 
-    <div class="col-8">
+<div class="col-8">
+        <h3>Evaluasi Akhir Semester</h3>
         <form action="/kategori/hasil" method="post" class="form-horizontal">
             {{ csrf_field() }}
 
